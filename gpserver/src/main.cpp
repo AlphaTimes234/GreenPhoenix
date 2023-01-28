@@ -8,6 +8,7 @@
 
 int main(int argc, char** argv) {
     /*
+    good gob :D
     std::ifstream f("world/0/0/c.0.0.dat");
     gp::world::Chunk c(f);
 
