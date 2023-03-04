@@ -4,7 +4,7 @@ project(stde-download NONE)
 include(ExternalProject)
 ExternalProject_Add(stde-download
                     SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/stde
-                    URL https://alphatimes.tk/std-extended-master.zip
+                    URL https://alphatimes.tk/greenphoenixdepends/std-extended-master.zip
                     CONFIGURE_COMMAND ""
                     BUILD_COMMAND ""
                     INSTALL_COMMAND ""
@@ -14,7 +14,7 @@ project(nbtpp-download NONE)
 
 ExternalProject_Add(nbtpp-download
                     SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/nbtpp
-                    URL https://alphatimes.tk/nbtpp-master.zip
+                    URL https://alphatimes.tk/greenphoenixdepends/nbtpp-master.zip
                     CONFIGURE_COMMAND ""
                     BUILD_COMMAND ""
                     INSTALL_COMMAND ""
